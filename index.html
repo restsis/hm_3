@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Studio</title>
+  <title>Web Studio </title>
+  <link
+    href="https://fonts.google.com/share?selection.family=Playfair%20Display%7CRaleway:wght@700%7CRoboto:wght@400;500;700"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <a href="#">WebStudio</a>
+    <a href="#" class="logo"><span>Web</span>Studio</a>
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="#studio">Студія</a></li>
         <li><a href="#portfolio">Портфоліо</a></li>
         <li><a href="#cotacts">Контакти</a></li>
@@ -20,52 +25,59 @@
   </nav>
   </header>
   <main>
-    <sectiom>
-      <h1>Ефективні рішення для вашого бізнесу</h1>
-      <button style="background-color: #2196F3; color: #FFFFFF;">Замовити послугу</button>
-    </sectiom>
+    <section class="effective">
+      <h1 class="effective_header">Ефективні рішення для вашого бізнесу</h1>
+      <button class="effective_button">Замовити послугу</button>
+    </section>
     <section>
-      <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-      <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-      <h4>ПУНКТУАЛЬНІСТЬ</h4>
-      <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-      <h4>ПЛАНУВАННЯ</h4>
-      <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-      <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-      <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-      <h2>Чим ми займаємося</h2>
+      <div class="feature">
+        <h4 class="feature_header">Увага</h4>
+        <p class="feature_header">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+      </div>
+      <div class="feature">
+        <h4 feature_header>ПУНКТУАЛЬНІСТЬ</h4>
+        <p feature_text>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+      </div>
+      <div class="feature">
+        <h4 feature_header>ПЛАНУВАННЯ</h4>
+        <p feature_text>Так само консультація з широким активом значною мірою зумовлює.</p>
+      </div>
+      <div class="feature">
+        <h4 feature_header>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+        <p feature_text>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+      </div>
+      <h2 class="our_work_header">Чим ми займаємося</h2>
       <img src="./img/activity1.jpg" alt="activity">
       <img src="./img/activity2.jpg" alt="activity">
       <img src="./img/activity3.jpg" alt="activity">
     </section>
-    <section>
       <h2>Наша команда</h2>
       <ul>
         <li>
           <img src="./img/teamate1.jpg" alt="team">
-          <h5>Ігор Дем'яненко</h5>
-          <p>Product Designer</p>
+          <h5 class="names">Ігор Дем'яненко</h5>
+          <p class="their_work">Product Designer</p>
         </li>
         <li>
           <img src="./img/teamate2.jpg" alt="team">
-          <h5>Ольга Рєпіна</h5>
-          <p>Frontend Developer</p>
+          <h5 class="names">Ольга Рєпіна</h5>
+          <p class="their_work">Frontend Developer</p>
         </li>
         <li>
           <img src="./img/teamate3.jpg" alt="team">
-          <h5>Микола Тарасов</h5>
-          <p>Marketing</p>
+          <h5 class="names">Микола Тарасов</h5>
+          <p class="their_work">Marketing</p>
         </li>
         <li>
           <img src="./img/teamate4.jpg" alt="team">
-          <h5>Михайло Єрмаков</h5>
-          <p>UI Designer</p>
+          <h5 class="names">Михайло Єрмаков</h5>
+          <p class="their_work">UI Designer</p>
         </li>
       </ul>
     </section>
   </main>
   <footer>
-    <h3>WebStudio</h3>
+    <h3 class="logo">WebStudio</h3>
     <address>м. Київ, пр-т Лесі Українки, 26</address>
     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
     <a href="tel:+380961111111">+38 096 111 11 11</a>
