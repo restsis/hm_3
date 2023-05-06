@@ -1,0 +1,39 @@
+
+	
+
+a  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+
+ nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+	padding: 0px;
+	margin: 0px;
+
+	
+}
+
+ul, ol, li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+address {
+font-style: italic;
+}
+img {
+	display: block;
+}
+
