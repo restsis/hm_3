@@ -4,6 +4,25 @@
     line-height: 16px;
 }
 
+.container {
+    outline: solid red;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header_container {
+    display: flex;
+    width: 904px;
+    padding: 24px 0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
 .logo {
     font-family: 'Raleway';
@@ -11,6 +30,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
 a span {
@@ -19,6 +39,8 @@ a span {
 }
 
 .navigation {
+    display: flex;
+    gap: 50px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -26,9 +48,22 @@ a span {
 .navigation a:hover {
     color: #2196F3;
 }
+.nav_contacts {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
 
 .effective {
     background: #2F303A;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .effective_header {
     font-weight: 900;
@@ -50,19 +85,32 @@ a span {
     width: 216px;
     height: 50px;
 }
+
+.feature_section {
+    padding: 94px 0;
+    background: #F5F5F5;
+}
+.feature_container {
+    display: flex;
+    width: 903px;
+    margin: 0 auto;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
 .feature_header {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.feature_header {
+.feature_text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
 }
-.our_work_header {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -70,6 +118,26 @@ a span {
     letter-spacing: 0.03em;
     color: #212121;
 }
+
+.feature_img {
+    display: flex;
+    gap: 30px;
+    margin: 50px 0 94px 0;
+    justify-content: center;
+}
+.team_section {
+    padding: 94px 0;
+    background: #F5F4FA;
+}
+.team {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: center;
+    width: 904px;
+    margin-top: 50px;
+}
+
 .team_header {
     font-weight: 500;
     font-size: 16px;
@@ -77,8 +145,13 @@ a span {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-
 }
+
+.team_img {
+    width: 270px;
+    height: 260px;  
+}
+
 .team_text {
     font-weight: 400;
     font-size: 16px;
@@ -86,6 +159,14 @@ a span {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.team_item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+
 }
 .our_work_buttons {
     background-color: #F5F4FA;
@@ -111,6 +192,12 @@ a span {
 }
 .footer {
     background-color: #2F303A;
+    margin: 60px auto;
+    display: flex;
+    height: 252px;
+}
+.container_footer {
+    margin: 60px 0 60px 215px;
 }
 .logo_footer {
     font-family: 'Raleway';
@@ -118,6 +205,12 @@ a span {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .logo_footer_span{
     color: #2196F3;
@@ -133,6 +226,7 @@ a span {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    /* margin: 10px; */
 }
 .footer_contacts {
     font-weight: 400;
@@ -140,9 +234,5 @@ a span {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-.container {
-    outline: solid red;
-    width: 1200px;
-    margin: 0 auto;
+
 }
